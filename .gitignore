@@ -1,0 +1,13 @@
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Training outputs / checkpoints (large, regenerable)
+out*/
+*.pt
+
+# Generated dataset artifacts (recreate with data/*/prepare.py)
+*.bin
+*.pkl
+input.txt
